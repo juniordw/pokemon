@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 250%;
+}
+
+button{
+    margin: auto 40%;
+    padding: 2%;
+    background-color: rgb(236, 157, 0);
+    border: grey;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+.card{
+    background-color: rgb(236, 157, 0);
+    margin: 10% 30%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px ;
+    font-weight: bold;
+    border-radius: 10px;
+}
